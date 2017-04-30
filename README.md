@@ -1,3 +1,14 @@
+<div align="center">
+<img src="http://moduland.github.io/pyrgb/rgb-lamps.jpg" height=240px width=320px>
+
+</br>
+
+</div>
+
+
+----------
+
+
 # pyrgb
 Python RGB Conversion Library
 
