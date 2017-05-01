@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Orangetool Doc</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body >
+    <div align="center">
+<a href="http://moduland.github.io/Orangetool"><img src="http://moduland.github.io/pyrgb/rgb-lamps.jpg" height=240px width=320px></a>
+    <p></p>
+    </div>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr style="background:linear-gradient(red,green,blue);">
+<td align="center" colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>&nbsp;</strong></big></font></td></tr>
+    
+<tr><td style="background:linear-gradient(90deg,red,green,blue);"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">
+ <dl><dt><a name="-cmyk_rgb"><strong>cmyk_rgb</strong></a>(C, M, Y, K)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;CMYK&nbsp;to&nbsp;RGB<br>
+:param&nbsp;C:&nbsp;Cyan&nbsp;[0,1]<br>
+:type&nbsp;C:float<br>
+:param&nbsp;M:&nbsp;Magenta&nbsp;[0,1]<br>
+:type&nbsp;M:float<br>
+:param&nbsp;Y:&nbsp;Yellow&nbsp;[0,1]<br>
+:type&nbsp;Y:float<br>
+:param&nbsp;K:&nbsp;Black&nbsp;Key&nbsp;Color&nbsp;[0,1]<br>
+:type&nbsp;K:float<br>
+:return:&nbsp;RGB&nbsp;as&nbsp;list&nbsp;[R,G,B]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-cmyk_rgb">cmyk_rgb</a>(0,0,0,1)<br>
+[0,&nbsp;0,&nbsp;0]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-cmyk_rgb">cmyk_rgb</a>(1,0,0,0)<br>
+[0,&nbsp;255,&nbsp;255]</tt></dd></dl>
+ <dl><dt><a name="-hex_rgb"><strong>hex_rgb</strong></a>(hex_code)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;hex_code&nbsp;to&nbsp;RGB<br>
+:param&nbsp;hex_code:&nbsp;hex_code&nbsp;input<br>
+:type&nbsp;hex_code:str<br>
+:return:&nbsp;RGB&nbsp;as&nbsp;list&nbsp;[R,G,B]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-hex_rgb">hex_rgb</a>('00FF00')<br>
+[0,&nbsp;255,&nbsp;0]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-hex_rgb">hex_rgb</a>('808080')<br>
+[128,&nbsp;128,&nbsp;128]</tt></dd></dl>
+ <dl><dt><a name="-hsl_rgb"><strong>hsl_rgb</strong></a>(H, S, L)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;hsl&nbsp;to&nbsp;rgb<br>
+:param&nbsp;H:&nbsp;Hue&nbsp;(0&lt;=H&lt;360)<br>
+:type&nbsp;H:int<br>
+:param&nbsp;S:&nbsp;Saturation&nbsp;(0&lt;S&lt;1)<br>
+:type&nbsp;S:float<br>
+:param&nbsp;L:&nbsp;Lightness&nbsp;(0&lt;L&lt;1)<br>
+:type&nbsp;L:float<br>
+:return:&nbsp;RGB&nbsp;as&nbsp;list&nbsp;[R,G,B]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-hsl_rgb">hsl_rgb</a>(240,1,0.25)<br>
+[0,&nbsp;0,&nbsp;128]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-hsl_rgb">hsl_rgb</a>(0,0,0.75)<br>
+[192,&nbsp;192,&nbsp;192]</tt></dd></dl>
+ <dl><dt><a name="-hsv_rgb"><strong>hsv_rgb</strong></a>(H, S, V)</dt><dd><tt>This&nbsp;function&nbsp;Convert&nbsp;HSV&nbsp;to&nbsp;RGB<br>
+:param&nbsp;H:&nbsp;Hue&nbsp;(0&lt;=H&lt;360)<br>
+:type&nbsp;H:int<br>
+:param&nbsp;S:&nbsp;Saturation&nbsp;(0&lt;S&lt;1)<br>
+:type&nbsp;S:float<br>
+:param&nbsp;V:&nbsp;Value&nbsp;(0&lt;V&lt;1)<br>
+:type&nbsp;V:float<br>
+:return:&nbsp;RGB&nbsp;as&nbsp;list&nbsp;[R,G,B]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-hsv_rgb">hsv_rgb</a>(240,1,0.5)<br>
+[0,&nbsp;0,&nbsp;128]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-hsv_rgb">hsv_rgb</a>(60,1,1)<br>
+[255,&nbsp;255,&nbsp;0]</tt></dd></dl>
+<dl><dt><a name="-rgb_cmyk"><strong>rgb_cmyk</strong></a>(R, G, B)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;RGB&nbsp;to&nbsp;CMYK<br>
+:param&nbsp;R:&nbsp;Red&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;R:int<br>
+:param&nbsp;G:&nbsp;Green&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;G:int<br>
+:param&nbsp;B:&nbsp;Blue&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;B:int<br>
+:return:&nbsp;CMYK&nbsp;as&nbsp;list&nbsp;[C,M,Y,K]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_cmyk">rgb_cmyk</a>(0,0,255)<br>
+[1.0,&nbsp;1.0,&nbsp;0.0,&nbsp;0.0]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_cmyk">rgb_cmyk</a>(0,255,255)<br>
+[1.0,&nbsp;0.0,&nbsp;0.0,&nbsp;0.0]</tt></dd></dl>
+ <dl><dt><a name="-rgb_hex"><strong>rgb_hex</strong></a>(R, G, B)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;RGB&nbsp;to&nbsp;HEX&nbsp;Format<br>
+:param&nbsp;R:&nbsp;Red&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;R:int<br>
+:param&nbsp;G:&nbsp;Green&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;G:int<br>
+:param&nbsp;B:&nbsp;Blue&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;B:int<br>
+:return:&nbsp;hex&nbsp;code&nbsp;as&nbsp;string<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hex">rgb_hex</a>(0,0,0)<br>
+'000000'<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hex">rgb_hex</a>(192,192,192)<br>
+'C0C0C0'<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hex">rgb_hex</a>(0,128,0)<br>
+'008000'</tt></dd></dl>
+ <dl><dt><a name="-rgb_hsl"><strong>rgb_hsl</strong></a>(R, G, B)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;rgb&nbsp;to&nbsp;hsl<br>
+:param&nbsp;R:&nbsp;Red&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;R:int<br>
+:param&nbsp;G:&nbsp;Green&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;G:int<br>
+:param&nbsp;B:&nbsp;Blue&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;B:int<br>
+:return:&nbsp;HSL&nbsp;as&nbsp;list&nbsp;[H,S,L]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hsl">rgb_hsl</a>(128,0,0)<br>
+[0,&nbsp;1.0,&nbsp;0.25]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hsl">rgb_hsl</a>(255,255,0)<br>
+[60,&nbsp;1.0,&nbsp;0.5]</tt></dd></dl>
+ <dl><dt><a name="-rgb_hsv"><strong>rgb_hsv</strong></a>(R, G, B)</dt><dd><tt>This&nbsp;function&nbsp;convert&nbsp;RGB&nbsp;to&nbsp;HSV<br>
+:param&nbsp;R:&nbsp;Red&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;R:int<br>
+:param&nbsp;G:&nbsp;Green&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;G:int<br>
+:param&nbsp;B:&nbsp;Blue&nbsp;Color&nbsp;Code&nbsp;(0-255)<br>
+:type&nbsp;B:int<br>
+:return:&nbsp;HSV&nbsp;as&nbsp;list&nbsp;[H,S,V]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hsv">rgb_hsv</a>(255,0,0)<br>
+[0,&nbsp;1.0,&nbsp;1.0]<br>
+&gt;&gt;&gt;&nbsp;<a href="#-rgb_hsv">rgb_hsv</a>(128,128,0)<br>
+[60,&nbsp;1.0,&nbsp;0.5]</tt></dd></dl>
+ <dl><dt><a name="-zero_insert"><strong>zero_insert</strong></a>(i)</dt><dd><tt>This&nbsp;function&nbsp;insert&nbsp;zero&nbsp;to&nbsp;input&nbsp;string<br>
+:param&nbsp;i:&nbsp;input&nbsp;string<br>
+:type&nbsp;i:int<br>
+:return:&nbsp;modified&nbsp;string<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;<a href="#-zero_insert">zero_insert</a>("2")<br>
+'02'<br>
+&gt;&gt;&gt;&nbsp;<a href="#-zero_insert">zero_insert</a>("02")<br>
+'02'</tt></dd></dl>
+</td></tr></table>
+
+</body></html>
