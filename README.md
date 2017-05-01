@@ -1,8 +1,9 @@
 <div align="center">
 <img src="http://moduland.github.io/pyrgb/rgb-lamps.jpg" height=240px width=320px>
+
+</br>
 <a href="https://badge.fury.io/py/pyrgb"><img src="https://badge.fury.io/py/pyrgb.svg" alt="PyPI version" height="18"></a>
 <a href="http://www.python.org"><img src="https://img.shields.io/badge/python-3.3%2C3.4%2C3.5%2C3.6-blue.svg"></a>
-</br>
 
 </div>
 
