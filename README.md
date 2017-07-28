@@ -5,6 +5,7 @@
 <a href="https://badge.fury.io/py/pyrgb"><img src="https://badge.fury.io/py/pyrgb.svg" alt="PyPI version" height="18"></a>
 <a href="http://www.python.org"><img src="https://img.shields.io/badge/python-3.3%2C3.4%2C3.5%2C3.6-blue.svg"></a>
 <a href="http://moduland.github.io/pyrgb"><img src="https://img.shields.io/badge/doc-latest-red.svg"></a>
+<a href="https://zenodo.org/badge/latestdoi/89876759"><img src="https://zenodo.org/badge/89876759.svg" alt="DOI"></a>
 
 </div>
 
