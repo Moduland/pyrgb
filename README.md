@@ -103,6 +103,15 @@ Our project is not and is never going to be working for profit. We need the mone
 
 <a href="http://www.payping.net/sepandhaghighi" target="__blank"><img src="http://www.qpage.ir/images/payping.png" height=100px width=100px></a>
 
+
+## Citing
+If you use pyrgb in your research , please cite this ;-)
+
+<blockquote>
+<p>Sepand Haghighi. (2017, July 28). Moduland/pyrgb: Version 0.1. Zenodo. http://doi.org/10.5281/zenodo.835824</p>
+</blockquote>
+
+
 ## License
 <div align="center">
 <a href="https://github.com/Moduland/pyrgb/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"/></a>
