@@ -75,6 +75,26 @@ hex_string=pyrgb.rgb_hex(R,G,B)
 - C,M,Y,K : (0,1)
 - R,G,B : (0-255)
 
+## Automated Build				
+				
+<div align="center">
+<table style="border:1px solid black">
+<tr>
+<th>Linux</th>
+<th>Windows</th>
+
+</tr>
+
+<tr>
+<td><a href="https://travis-ci.org/Moduland/pyrgb"><img src="https://travis-ci.org/Moduland/pyrgb.svg?branch=master"></a></td>
+<td> <a href="https://ci.appveyor.com/project/sepandhaghighi/pyrgb"><img src="https://ci.appveyor.com/api/projects/status/7sqa1r0n22gq23ne?svg=true"></a>	</td>
+
+</tr>	
+
+</table>
+
+</div>
+
 
 ## Issues & Bug Reports			
 
