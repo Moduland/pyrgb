@@ -21,12 +21,12 @@ Python RGB Conversion Library
 ### Source Code
 - Download [Version 0.1](https://github.com/moduland/pyrgb/archive/v0.1.zip) or [Latest Source ](https://github.com/Moduland/pyrgb/archive/master.zip)
 
-- `python3 setup.py install`
+- `python3 setup.py install` or `python setup.py install` (Need Root Access)
 
 ### PyPI
 
 - Check [Python Packaging User Guide](https://packaging.python.org/installing/)     
-- `pip3 install pyrgb`
+- `pip3 install pyrgb` or `pip install pyrgb` (Need Root Access)
 
 
 ## Functions
