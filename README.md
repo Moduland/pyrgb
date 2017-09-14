@@ -6,6 +6,9 @@
 <a href="http://www.python.org"><img src="https://img.shields.io/badge/python-3.3%2C3.4%2C3.5%2C3.6-blue.svg"></a>
 <a href="http://moduland.github.io/pyrgb"><img src="https://img.shields.io/badge/doc-latest-red.svg"></a>
 <a href="https://zenodo.org/badge/latestdoi/89876759"><img src="https://zenodo.org/badge/89876759.svg" alt="DOI"></a>
+<a href="https://codecov.io/gh/Moduland/pyrgb">
+  <img src="https://codecov.io/gh/Moduland/pyrgb/branch/master/graph/badge.svg" alt="Codecov" />
+</a>
 
 </div>
 
