@@ -1,5 +1,7 @@
 '''
 >>> from pyrgb import *
+>>> import coverage
+>>> cov.start()
 >>> hsv_rgb(240,1,0.5)
 [0, 0, 128]
 >>> hsv_rgb(60,1,1)
@@ -16,5 +18,7 @@
 [0, 0, 0]
 >>> cmyk_rgb(1,0,0,0)
 [0, 255, 255]
+>>> cov.stop()
+>>> cov.save()
 
 '''
