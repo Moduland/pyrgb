@@ -1,6 +1,7 @@
 '''
 >>> from pyrgb import *
 >>> import coverage
+>>> cov = coverage.Coverage()
 >>> cov.start()
 >>> hsv_rgb(240,1,0.5)
 [0, 0, 128]
