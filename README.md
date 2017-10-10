@@ -70,13 +70,20 @@ hex_string=pyrgb.rgb_hex(R,G,B)
 [C,M,Y,K]=pyrgb.rgb_cmyk(R,G,B)
 
 
+
 ```
+
 - H: Hue (0<=H<360) 
 - S: Saturation (0<S<1)
 - V: Value (0<V<1)
 - L: Lightness (0<L<1)
 - C,M,Y,K : (0,1)
 - R,G,B : (0-255)
+
+<div align="center">
+<a href="https://asciinema.org/a/141605" target="_blank"><img src="https://asciinema.org/a/141605.png" /></a>
+</div>
+
 
 ## Automated Build				
 				
