@@ -9,7 +9,7 @@
 <a href="https://codecov.io/gh/Moduland/pyrgb">
   <img src="https://codecov.io/gh/Moduland/pyrgb/branch/master/graph/badge.svg" alt="Codecov" />
 </a>
-
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3" /></a>
 </div>
 
 
